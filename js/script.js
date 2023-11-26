@@ -1,4 +1,4 @@
-const team = [
+const teamList = [
     {name: 'Wayne Barnett', role: 'Founder & CEO', picture: 'img/wayne-barnett-founder-ceo.jpg'},
     {name: 'Angela Caroll', role: 'Chief Editor', picture: 'img/angela-caroll-chief-editor.jpg'},
     {name: 'Walter Gordon', role: 'Office Manager', picture: 'img/walter-gordon-office-manager.jpg'},
@@ -8,7 +8,7 @@ const team = [
 ];
 
 const wrapper = document.querySelector('main .wrapper');
-createCard(team, wrapper);
+createCard(teamList, wrapper);
 
 // ==== Functions ====
 
