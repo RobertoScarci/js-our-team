@@ -7,3 +7,26 @@ const team = [
     {name: 'Barbara Ramos', role: 'Graphic Designer', picture: 'img/barbara-ramos-graphic-designer.jpg'},
 ];
 
+const wrapper = document.querySelector('.wrapper');
+createCard(team, wrapper);
+
+// ==== Functions ====
+
+function createCard(cardInfo, wrapper) {
+    for(let i = 0; i < cardInfo.length; i++) {
+        const member = cardInfo[i];
+        wrapper.innerHTML += 
+        `
+        <!-- Article ${i} -->
+        <article class='card'>
+            <div class='imgWrapper'>
+                <img src="${member.picture}" alt='Picture of ${member.name}'>
+            </div>
+            <div class='infoWrapper'>
+                <h3>${member.name}</h3>
+                <p>${member.role}</p>
+            </div>
+        </article>
+        `;
+    }
+}
