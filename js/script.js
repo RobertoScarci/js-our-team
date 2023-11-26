@@ -7,7 +7,7 @@ const team = [
     {name: 'Barbara Ramos', role: 'Graphic Designer', picture: 'img/barbara-ramos-graphic-designer.jpg'},
 ];
 
-const wrapper = document.querySelector('.wrapper');
+const wrapper = document.querySelector('main .wrapper');
 createCard(team, wrapper);
 
 // ==== Functions ====

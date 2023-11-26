@@ -18,14 +18,13 @@ main {
 }
 
 main > h1 {
-    text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 main > p {
     padding: 0 14rem;
     color: rgb(71, 70, 70);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 main h1,
@@ -51,7 +50,7 @@ article.card .imgWrapper img {
 }
 
 article.card .infoWrapper {
-    padding: .75rem;
+    padding: .85rem;
     text-align: center;
 }
 
